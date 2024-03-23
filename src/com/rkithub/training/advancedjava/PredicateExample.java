@@ -11,7 +11,7 @@ public class PredicateExample {
 	public static void main(String[] args) {
 		Predicate<String> startsWithS =  s->s.contains("s");
 		
-	//	List<String> listNames =  Arrays.asList("MongoDB", "ExpressJs", "React","NodeJs");
+		List<String> listNames =  Arrays.asList("MongoDB", "ExpressJs", "React","NodeJs");
 		
 		List<String> listNames1 = new ArrayList<String>();
 		listNames1.add("MongoDB");
